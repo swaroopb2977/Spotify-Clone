@@ -45,7 +45,7 @@ nav ul li{
 }
 
 .container{
-    min-height: 72vh;
+    min-height: 68vh;
     background-color: black;
     color: white;
     font-family: 'Varela Round', sans-serif;
@@ -83,7 +83,52 @@ nav ul li{
     cursor: pointer;
 }
 
+.songsItemContainer{
+    margin-top:74px;
+}
 
+.songItem{
+    height:50px;
+    display:flex;
+    background-color: white;
+    color:black;
+    margin:12px 0;
+    justify-content:  space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width:43px;
+    margin:0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position:absolute;
+    left:10vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 50;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
 
 
 
